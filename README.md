@@ -17,9 +17,7 @@ This project performs a comprehensive analysis of covariance matrix estimation m
 ├── 03_portfolio_functions.R     # Portfolio optimization functions
 ├── 04_part_a_analysis.R          # Part A analysis scripts
 ├── 05_part_b_backtest.R         # Part B backtest scripts
-
 ├── main.R                        # Main orchestrator script
-
 ├── data/                         # Data directory
 │   ├── daily_returns.rds
 │   └── monthly_returns.rds
@@ -35,24 +33,12 @@ This project performs a comprehensive analysis of covariance matrix estimation m
    source("main.R")
    ```
 
-2. **Or run individual components:**
-   ```r
-   source("config.R")
-   source("01_download_data.R")
-   # ... etc
-   ```
-
 ## Requirements
 
 ### R Packages
 - `quadprog` - Portfolio optimization
 - `ggplot2` - Plotting
 - `lubridate` - Date handling
-
-All packages will be automatically installed if missing.
-
-### External Tools
-- `pandoc` (for PDF generation from R Markdown)
 
 ## Data
 
