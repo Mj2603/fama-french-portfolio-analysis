@@ -1,0 +1,37 @@
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*.Rproj
+*.Rproj.user
+
+# Data files
+data/*.zip
+data/*.csv
+data/*.rds
+
+# Output files - exclude all outputs including presentations
+output/
+*.pptx
+*.png
+
+# Research paper intermediate files
+Research_Paper.tex
+Research_Paper.knit.md
+Research_Paper.log
+Research_Paper.aux
+Research_Paper.out
+Research_Paper.toc
+Research_Paper.pdf
+Research_Paper.md
+
+# Presentation generation script (not for review)
+06_generate_presentation.R
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+run_log.txt
+
