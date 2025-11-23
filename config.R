@@ -1,5 +1,3 @@
-# Configuration File for Fama-French 49 Industry Portfolio Analysis
-
 # Part A.1 Analysis Parameters
 PART_A1_TARGET_DATE <- as.Date("2022-12-31")
 PART_A1_WINDOW_MIN <- 50
